@@ -12,13 +12,12 @@ This project aimes to analyze the "transfusion.data" dataset related to blood do
 - **pandas.plotting.scatter_matrix**: A utility from pandas for creating scatter plot matrices.
 - **seaborn**: A statistical data visualization library based on matplotlib that provides a high-level interface for drawing attractive statistical graphics.
 
-1. Data Loading: Reads a CSV file containing information about blood donors into a pandas DataFrame.
-2. Descriptive Statistics: Computes and displays summary statistics for the dataset.
-3. Data Visualization: Creates various plots to visualize the relationships and distributions of different metrics:
+1. **Data Loading**: Reads a CSV file containing information about blood donors into a pandas DataFrame.
+2. **Descriptive Statistics**: Computes and displays summary statistics for the dataset.
+3. **Data Visualization**: Creates various plots to visualize the relationships and distributions of different metrics:
    - Scatter Plots: Shows individual metrics such as recency, frequency, monetary value, and time related to blood donations.
    - Scatter Matrix: Visualizes pairwise relationships between selected metrics.
    - Box Plots: Displays the distribution of these metrics, categorized by whether a donor donated blood in March 2007, helping to identify trends and potential outliers.
      
-The overall goal is to explore and visualize the characteristics of blood donation behavior in the dataset, aiding in understanding patterns and insights relevant to donor campaigns.
 
    
